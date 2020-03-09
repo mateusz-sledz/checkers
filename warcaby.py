@@ -1,8 +1,8 @@
-import sys
 import pygame
 import random
 import copy
 import itertools
+
 
 class Field:
     def __init__(self):
@@ -300,7 +300,7 @@ def move(w, l, W, L):
 
 
 def ai(board, depth):
-    root = Node(board)  # od zajaca root
+    root = Node(board) 
     root = possible_outcomes(root, "red")
     root = wspaniala_funkcja(depth, root, 1)
 
@@ -539,6 +539,6 @@ while running:
             board_draw()
 
     pygame.display.update()
-    clock.tick(60)  # nw co to
+    clock.tick(60)
 
 pygame.quit()
