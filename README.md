@@ -1,5 +1,6 @@
 # Dokumentacja projektu - Warcaby
 Przedmiot: PSZT
+
 Autorzy: Mateusz Śledź, Kacper Zając
 
 
